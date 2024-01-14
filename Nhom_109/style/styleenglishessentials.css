@@ -1,0 +1,262 @@
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/hinh10.jpg);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size:62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:#777;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display:flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.suitable{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.suitable-col{
+    flex-basis:32%;
+    border-radius:25px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.suitable-col img{
+    width: 100%;
+    display: block  ;
+}
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    color: #fff3f3;
+}
+.layer:hover{
+    background: rgba(24, 0, 97, 0.7);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left:0%;
+    transition: translateX(-50%);
+    opacity:0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+.details{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    max-height: 150px;
+}
+.details-col{
+    flex-basis: 25%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.details-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.details-col p{
+    padding: 0;
+}
+.details-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.review{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.review-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #f3f3ff;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+.review-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50px;
+}
+.review-col p{
+    padding: 0;
+}
+.review-col h3{
+    margin-top: 15px;
+    text-align: left;
+}
+.review-col .fa{
+    color: #f44336;
+}
+.blue-btn{
+    border: 1px solid #00335a;
+    background: transparent;
+    color: #00335a;
+}
+.blue-btn:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.comment-box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.comment-box h3{
+    text-align: left;
+}
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing:border-box;
+    border: none;
+    outline: none;
+    background: #F8F8FF;
+}
+.comment-form button{
+    margin: 10px 0;
+}
+.bgmenu{
+    background-color: #00335a;
+}
+.textcolor{
+    color: #FFFFF0;
+}
+.introduce{
+    background-color: #F8F8FF;
+}
+.khunghinh{
+    padding: 5px;
+    margin: 3px;
+    float:left;
+    width: 400px;
+}
+.chu{
+    text-align: left;
+    font-size: 23px;
+}
+.khoangcach{
+    padding: 15px;
+}
+.hinh{
+    height: 200px;
+}
+.chutuvan{
+    text-align: center;
+}
+.form{
+    width: 500px;
+    margin: 7px;
+}
+.rowstyle{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.trangchu{
+    width: 100%;
+    background-color: #F8F8FF;
+}
+footer li{
+    float: none;
+    list-style: none;
+    display: inline;
+}
+.footer1{
+    background-color: #00335a;
+    color: #FFFFF0;
+    padding-top: 51px;
+    padding-bottom: 44px;
+}
+footer .footer1 ul{
+    display: inline;
+}
+footer li a{
+    color: #FFFFF0;
+    display: inline-block;
+    padding: 12px;
+    border: 2px solid #FFFFF0;
+    border-radius: 50%;
+    width: 43px;
+    height:44px;
+    margin: 0 5px;
+}
+.submitbutton{
+    margin-top: 6px;
+    margin-left: 600px;
+}
